@@ -21,8 +21,8 @@
   --clr-border: #3d6b4f;
   --clr-hero-bg: #2c3e2e;
   --clr-hero-text: #faf9f6;
-  --ff-body: "Georgia", "Times New Roman", serif;
-  --ff-heading: "Georgia", "Times New Roman", serif;
+  --ff-body: "Helvetica", "Times New Roman", serif;
+  --ff-heading: "Helvetica", "Times New Roman", serif;
   --container-max: 1100px;
   --space-xs: 0.5rem;
   --space-sm: 1rem;
@@ -154,12 +154,20 @@ a:hover {
   letter-spacing: -0.01em;
 }
 
+.logo-image {
+  max-height: 5rem;
+  max-width: 7rem;
+}
+
+
 .logo:hover {
   color: var(--clr-accent);
 }
 
 .logo-leaf {
-  font-size: 1.4rem;
+  background-color: var(--clr-bg);
+  padding: 0.25rem;
+  border-radius: 0.15rem;
 }
 
 #primary-nav ul {
